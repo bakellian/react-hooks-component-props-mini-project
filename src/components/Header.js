@@ -1,8 +1,12 @@
 import react from "react";
 import App from "./App";
 
-function Header() {
+function Header({name}) {
     return (
-        //things here
+        <header>
+            <h1>{ name }</h1>
+        </header>
     )
 }
+
+export default Header;
